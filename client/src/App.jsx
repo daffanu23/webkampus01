@@ -25,10 +25,10 @@ const App = () => {
     const fetchInitialData = async () => {
       try {
         // Panggil API backend kita
-        const resAch = await axios.get('https://webkampus-server.vercel.app/api/achievements');
+        const resAch = await axios.get('https://webkampus01.vercel.app/api/achievements');
         setAchievements(resAch.data);
 
-        const resNews = await axios.get('https://webkampus-server.vercel.app/api/news');
+        const resNews = await axios.get('https://webkampus01.vercel.app/api/news');
         setNews(resNews.data);
       } catch (error) {
         console.error("Gagal mengambil data:", error);
@@ -42,7 +42,7 @@ const App = () => {
   const handleSearch = async (e) => {
     e.preventDefault();
     try {
-      const response = axios.get('https://webkampus-server.vercel.app/api/schemes', {
+      const response = axios.get('https://webkampus01.vercel.app/api/schemes', {
         params: {
           type: selectedEvent,
           city: selectedCity,
