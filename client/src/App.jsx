@@ -71,7 +71,7 @@ const App = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
            <div className="flex justify-between items-center h-16">
              <div className="flex-shrink-0">
-               <div className="text-2xl font-bold text-blue-600">LSP Digital</div>
+               <div className="text-2xl font-bold text-blue-600">Logo Here</div>
              </div>
              <nav className="hidden md:flex space-x-8">
                <a href="/" className="text-gray-700 hover:text-blue-600 font-medium">Home</a>
@@ -102,8 +102,8 @@ const App = () => {
       <div className="relative w-full h-96 bg-gradient-to-r from-blue-500 to-purple-600">
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center text-white px-4">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">Professional Certification & Training</h1>
-            <p className="text-xl md:text-2xl max-w-3xl mx-auto">Empowering professionals with industry-recognized credentials</p>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">Banner Placement</h1>
+            <p className="text-xl md:text-2xl max-w-3xl mx-auto">Lorem Ipsum</p>
           </div>
         </div>
       </div>
